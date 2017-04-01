@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <malloc.h>
+#include <stdlib.h>
+
+int main(int argc,char** args)
+{
+  if(argc<2)
+  {
+    printf("Usage: %s RULE",args[0]);
+  }
+  
+  return 0;
+}
